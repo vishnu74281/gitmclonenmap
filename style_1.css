@@ -1,0 +1,286 @@
+/*
+Theme Name: GITM
+Theme URI: https://wordpress.org/themes/twentyseventeen/
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: Twenty Seventeen brings your site to life with header video and immersive featured images. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats. Our default theme for 2017 works great in many languages, for any abilities, and on any device.
+Version: 1.7
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentyseventeen
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/*--------------------------------------------------------------
+13.5 Pages
+--------------------------------------------------------------*/
+
+#mega-menu-wrap-top #mega-menu-top > li.mega-menu-item > a.mega-menu-link{margin-bottom:10px;}
+.page-header {
+	padding-bottom: 2em;
+}
+
+.page .entry-header .edit-link {
+	font-size: 14px;
+	font-size: 0.875rem;
+}
+
+.search .page .entry-header .edit-link {
+	font-size: 11px;
+	font-size: 0.6875rem;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+
+.page:not(.home) #content {
+	padding-bottom: 1.5em;
+}
+
+/* 404 page */
+
+.error404 .page-content {
+	padding-bottom: 4em;
+}
+
+.error404 .page-content .search-form,
+.search .page-content .search-form {
+	margin-bottom: 3em;
+}
+
+.page-header {
+	padding-bottom: 2em;
+}
+
+.page .entry-header .edit-link {
+	font-size: 14px;
+	font-size: 0.875rem;
+}
+
+.search .page .entry-header .edit-link {
+	font-size: 11px;
+	font-size: 0.6875rem;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+
+.page:not(.home) #content {
+	padding-bottom: 1.5em;
+}
+#contact {
+    position: relative;
+    overflow: hidden;
+}
+#contact .container-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(69, 174, 214, 0.3);
+    z-index: 1;
+}
+#contact .contact-form {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin-top: 50px;
+}
+address {
+    margin-bottom: 20px;
+    font-style: normal;
+    line-height: 1.42857143;
+}
+/* 404 page */
+
+.error404 .page-content {
+	padding-bottom: 4em;
+}
+
+.error404 .page-content .search-form,
+.search .page-content .search-form {
+	margin-bottom: 3em;
+}
+
+label {
+    color: #333;
+    display: block;
+    font-weight: 800;
+    margin-bottom: 0.5em;
+}
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea {
+	color: #666;
+	background: #fff;
+	background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+	border: 1px solid #bbb;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	display: block;
+	padding: 0.7em;
+	width: 100%;
+}
+
+.search-form .search-submit {
+    bottom: 3px;
+    padding: 0.5em 1em;
+   /* position: absolute;*/
+    right: 3px;
+    top: 3px;
+}
+.search-form .search-submit .icon {
+    height: 24px;
+    top: -2px;
+    width: 24px;
+}
+.search-field{
+    float: left!important;
+    width: 94%!important;
+padding: 12px 0px 10px 20px;
+}
+
+svg:not(:root) {
+	overflow: hidden;
+}
+.icon {
+    display: inline-block;
+    fill: currentColor;
+    height: 1em;
+    position: relative;
+    top: -0.0625em;
+    vertical-align: middle;
+    width: 1em;
+}
+
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    overflow: hidden;
+    position: absolute !important;
+    width: 1px;
+    word-wrap: normal !important;
+}
+
+
+
+/*--------------------------------------------------------------
+3.0 Alignments
+--------------------------------------------------------------*/
+
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.5em;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* Extra CSS */
+.panel-has-style
+{
+	margin-bottom: 0px!important;
+	}
+.so-panel
+{
+	margin-bottom: 0px!important;
+	}	
+.campus-image img {
+   
+    margin-top: -85px;
+}
+
+.criteria-box {
+    min-height: 378px;	
+	
+}
+.three-line-border{     padding: 0;
+    border: 1px solid #fff;
+    padding: 30px;
+}
+
+.one-box-center {
+    border-right: 1px solid #fff;
+    float: left;
+    height: 307px;
+}
+.life-box {
+	min-height: 391px;
+}
+
+/* for Table */
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+    border: 1px solid #437fe0!important;
+}
+
+.decoration th {
+    text-decoration: none;
+    color: #fff;
+    padding: 6px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    background-color: #0f408f;
+    border-bottom: 1px solid #0083ff;
+}
+.decoration td {
+    padding: 6px;
+    font-weight: 400;
+}
+.decoration p {margin:0px!important;}
+
+.list-inline-lis li ul.sub-menu {display:none;}
+#mega-menu-wrap-top #mega-menu-top { padding: 5px 0px 0px 0px;}
+#mega-menu-wrap-top #mega-menu-top li.mega-menu-item-has-children > a.mega-menu-link:after, #mega-menu-wrap-top #mega-menu-top li.mega-menu-item-has-children > a.mega-menu-link span.mega-indicator:after {display:none!important;}
+#mega-menu-wrap-top #mega-menu-top > li.mega-menu-megamenu > ul.mega-sub-menu {margin-top: 3px; padding: 20px;}
+.heading-black{color:#000000!important;}
+#jtg-1797 .modula-items .figc .jtg-title {
+    color: #ffffff;
+    display: none !important;
+}
+h2.jtg-title {
+    display: none;
+}
+@media (max-width:768px) {
+.right_sticky{z-index: 9999;}
+.strip {display: table;width: 100%;position: fixed;z-index: 99999;bottom: 0;background-color:#9f181c;}
+
+.strip li:first-child {border-left: none;}
+.strip li {float: left;width: 33%;text-align: center;border-left: 1px solid #fff;}
+	.strip li a {display: block;padding: 7px;color: #fff;}}
+
+@media only screen and (min-width:320px) and (max-width:480px){.course-list {
+    display: none;
+}
+    .right_sticky{z-index: 9999;display: block !important;}
+}
